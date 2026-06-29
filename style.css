@@ -304,26 +304,6 @@ resize:none;
     box-shadow:0 0 20px #00e5ff;
 }
 
-/* Stats */
-
-.stats{
-    text-align:center;
-    padding:60px 20px;
-}
-
-.stat-box{
-    display:inline-block;
-    width:180px;
-    margin:10px;
-    padding:20px;
-    border:2px solid #00e5ff;
-    border-radius:10px;
-    background:#111;
-}
-
-.stat-box h3{
-    color:#00e5ff;
-}
 
 /* Back to Top */
 
