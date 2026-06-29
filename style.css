@@ -53,6 +53,19 @@ nav a:hover{
     font-size:55px;
     color:#00e5ff;
     text-shadow:0 0 20px #00e5ff;
+    animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+
+from{
+    text-shadow:0 0 10px #00e5ff;
+}
+
+to{
+    text-shadow:0 0 30px #00e5ff;
+}
+
 }
 
 .hero p{
@@ -157,4 +170,37 @@ nav a{
 .card img:hover{
     transform:scale(1.08);
     transition:0.5s;
+}
+/* Trending Games */
+
+.trending{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.trending h2{
+    color:#00e5ff;
+    margin-bottom:30px;
+    text-shadow:0 0 10px #00e5ff;
+}
+
+.trend-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.trend-card{
+    width:250px;
+    background:#111;
+    border:2px solid #00e5ff;
+    border-radius:15px;
+    padding:20px;
+    transition:0.4s;
+}
+
+.trend-card:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 25px #00e5ff;
 }
