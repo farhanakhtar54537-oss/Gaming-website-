@@ -161,9 +161,9 @@ nav a{
 }
 
 .trending h2{
-    color:#00e5ff;
+    color:#ff00ff;
     margin-bottom:30px;
-    text-shadow:0 0 10px #00e5ff;
+    text-shadow:0 0 10px #ff0000; 0 0 20px#8000ff
 }
 
 .trend-box{
