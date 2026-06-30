@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+const btn = document.getElementById("themeBtn");
+
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+});
+</script>
 <body>
 
 <a href="#" class="top-btn">⬆ Top</a>
@@ -25,6 +32,7 @@
     </nav>
 
     <input type="text" placeholder="Search Games..." class="search">
+    <button id="themeBtn">🌙 Dark / ☀ Light</button>
 </header>
 
 <section class="hero">
@@ -167,6 +175,26 @@
         <img src="https://picsum.photos/300/200?random=1" alt="Game 1">
         <img src="https://picsum.photos/300/200?random=2" alt="Game 2">
         <img src="https://picsum.photos/300/200?random=3" alt="Game 3">
+    </div>
+</section>
+<section class="news">
+    <h2>📰 Latest Gaming News</h2>
+
+    <div class="news-box">
+        <div class="news-card">
+            <h3>🎮 GTA 6</h3>
+            <p>GTA 6 is one of the most awaited games with a huge open world.</p>
+        </div>
+
+        <div class="news-card">
+            <h3>🔥 BGMI</h3>
+            <p>New BGMI update brings exciting maps, weapons and events.</p>
+        </div>
+
+        <div class="news-card">
+            <h3>⚔ Valorant</h3>
+            <p>Valorant introduces a new agent with unique abilities.</p>
+        </div>
     </div>
 </section>
 
