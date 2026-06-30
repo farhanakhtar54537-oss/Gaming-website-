@@ -536,3 +536,147 @@ footer p,
 footer a{
     color: black !important;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    transition: 0.4s;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #ff0000, #6a00ff);
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* NAV */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* SEARCH */
+.search {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #00e5ff;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00ff88;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1a1a1a;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* CARDS */
+.card, .trend-card, .player-card, .news-card {
+    background: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.card:hover, .trend-card:hover, .player-card:hover, .news-card:hover {
+    transform: scale(1.05);
+    background: #333;
+}
+
+/* TREND BOX */
+.trend-box, .news-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* GALLERY */
+.gallery-box img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+/* TOP BUTTON */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* LIGHT MODE */
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.light-mode header {
+    background: linear-gradient(90deg, #00ff88, #00c3ff);
+}
+
+.light-mode .card,
+.light-mode .trend-card,
+.light-mode .player-card,
+.light-mode .news-card {
+    background: #f1f1f1;
+    color: black;
+}
+
+.light-mode footer {
+    background: #ddd;
+    color: black;
+}
