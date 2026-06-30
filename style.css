@@ -355,3 +355,38 @@ padding: 20px;
 background: lightgray;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+    background: lightgray;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .box {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
