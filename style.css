@@ -525,3 +525,14 @@ footer a{
 footer a:hover{
     color:#00e5ff;
 }
+
+footer{
+    background: white !important;
+}
+
+footer h2,
+footer h3,
+footer p,
+footer a{
+    color: black !important;
+}
