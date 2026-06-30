@@ -175,7 +175,8 @@ nav a{
 
 .trend-card{
     width:250px;
-    background:#111;
+    background: linear-gradient(135deg, #ff0000, #8000ff);
+    color:white;
     border:2px solid #00e5ff;
     border-radius:15px;
     padding:20px;
@@ -462,4 +463,26 @@ img {
 .stat-box:hover{
     transform:translateY(-8px);
     box-shadow:0 0 20px #00e5ff;
+}
+
+.stat-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #00e5ff;
+}
+
+.games .card:nth-child(1){
+    background: linear-gradient(135deg, #ff0000, #8000ff);
+}
+
+.games .card:nth-child(2){
+    background: linear-gradient(135deg, #00c853, #00e5ff);
+}
+
+.games .card:nth-child(3){
+    background: linear-gradient(135deg, #8bc34a, #4caf50);
+}
+
+.games .card h3,
+.games .card p{
+    color: white;
 }
