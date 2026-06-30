@@ -487,3 +487,41 @@ img {
 .games .card p{
     color: white;
 }
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #00e5ff;
+    color:white;
+}
+
+footer h2,
+footer h3,
+footer p,
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#00e5ff;
+}
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #00e5ff;
+    color:white;
+}
+
+footer h2,
+footer h3,
+footer p,
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#00e5ff;
+}
