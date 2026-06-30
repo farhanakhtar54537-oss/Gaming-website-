@@ -426,3 +426,33 @@ img {
     color:#111;
     border-color:#00bcd4;
 }
+.trend-card:first-child {
+    background: blue;
+} 
+.stats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.stat-box{
+    width:220px;
+    background:#111;
+    border:2px solid #00e5ff;
+    border-radius:15px;
+    padding:25px;
+    transition:0.3s;
+}
+
+.stat-box h2{
+    color:#00e5ff;
+    font-size:32px;
+}
+
+.stat-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #00e5ff;
+}
