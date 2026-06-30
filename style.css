@@ -329,3 +329,29 @@ resize:none;
     height:60px;
     border-radius:10px;
 }
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: Arial;
+}
+
+.container {
+display: flex;
+flex-direction: column
+gap: 20px;              
+align-items: center;
+padding: 20px;
+}
+
+.box {
+width: 80%;
+padding: 20px;
+background: lightgray;
+}
+
