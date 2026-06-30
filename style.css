@@ -233,7 +233,8 @@ padding:60px 20px;
 
 .player-card{
 display:inline-block;
-background:#111;
+background: linear-gradient(135deg, #FFD700, #32CD32);
+color:black;
 border:2px solid #00e5ff;
 padding:20px;
 margin:10px;
@@ -390,7 +391,8 @@ img {
 
 .news-card{
     width:280px;
-    background:#111;
+    background:white;
+    color:black;
     border:2px solid #00e5ff;
     border-radius:15px;
     padding:20px;
@@ -445,7 +447,7 @@ img {
 
 .stat-box{
     width:220px;
-    background:#111;
+    background: linear-gradient(135deg, #ff4d4d, #ff9900);
     border:2px solid #00e5ff;
     border-radius:15px;
     padding:25px;
