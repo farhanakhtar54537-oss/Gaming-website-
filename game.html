@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Details</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f0f0f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box {
+            max-width: 600px;
+            margin: auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1 id="title">Loading...</h1>
+    <img id="img" src="">
+    <p id="desc"></p>
+
+    <a href="index.html">⬅ Back</a>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+
+const name = params.get("name");
+const desc = params.get("desc");
+const img = params.get("img");
+
+document.getElementById("title").innerText = name;
+document.getElementById("desc").innerText = desc;
+document.getElementById("img").src = img;
+</script>
+
+</body>
+</html>
