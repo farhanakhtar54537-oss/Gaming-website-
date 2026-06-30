@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-const btn = document.getElementById("themeBtn");
-
-btn.addEventListener("click", () => {
-    document.body.classList.toggle("light-mode");
-});
-</script>
 <body>
 
+<!-- TOP BUTTON -->
 <a href="#" class="top-btn">⬆ Top</a>
 
+<!-- HEADER -->
 <header>
-    <h1 class="logo">
-        <img src="file_00000000adf871f89f91db6a2460d139.png" alt="Gaming Zone Logo">
-        Gaming Zone
-    </h1>
+    <h1 class="logo">🎮 Gaming Zone</h1>
 
     <nav>
         <a href="#">Home</a>
@@ -32,47 +25,50 @@ btn.addEventListener("click", () => {
     </nav>
 
     <input type="text" placeholder="Search Games..." class="search">
+
     <button id="themeBtn">🌙 Dark / ☀ Light</button>
 </header>
 
+<!-- HERO SECTION -->
 <section class="hero">
     <h2>Welcome to Gaming Zone</h2>
     <p>Play the Best Games. Explore the Gaming World.</p>
     <button>Explore Now</button>
 </section>
 
+<!-- GAMES -->
 <section class="games" id="games">
 
     <div class="card">
         <h3>🔥 Free Fire</h3>
-        <p>Battle Royale game with exciting gameplay.</p>
+        <p>Battle Royale action game.</p>
     </div>
 
     <div class="card">
         <h3>🎯 BGMI</h3>
-        <p>Fight with your squad and become the winner.</p>
+        <p>Squad battle survival game.</p>
     </div>
 
     <div class="card">
         <h3>⛏ Minecraft</h3>
-        <p>Create your own amazing world and survive.</p>
+        <p>Create and survive in your world.</p>
     </div>
 
 </section>
 
+<!-- ABOUT -->
 <section id="about" style="padding:50px;text-align:center;">
     <h2 style="color:#00e5ff;">About</h2>
-    <p>
-        Gaming Zone is a website made for gamers.
-        Here you can explore popular games and enjoy a modern gaming experience.
-    </p>
+    <p>Gaming Zone is a platform for gamers to explore popular games and updates.</p>
 </section>
 
+<!-- CONTACT -->
 <section id="contact" style="padding:50px;text-align:center;">
     <h2 style="color:#00e5ff;">Contact</h2>
     <p>Email: gamingzone@gmail.com</p>
 </section>
 
+<!-- TRENDING -->
 <section class="trending">
 
     <h2>🔥 Trending Games</h2>
@@ -98,30 +94,29 @@ btn.addEventListener("click", () => {
 
 </section>
 
+<!-- VIDEO -->
 <section class="video">
 
     <h2>🎥 Gaming Trailer</h2>
 
-    <iframe
-        width="350"
-        height="200"
+    <iframe width="350" height="200"
         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="Gaming Video"
         allowfullscreen>
     </iframe>
 
 </section>
 
+<!-- NEWSLETTER -->
 <section class="newsletter">
 
-    <h2>📩 Join Our Newsletter</h2>
+    <h2>📩 Join Newsletter</h2>
 
-    <input type="email" placeholder="Enter your email">
-
+    <input type="email" placeholder="Enter Email">
     <button>Subscribe</button>
 
 </section>
 
+<!-- PLAYERS -->
 <section class="players">
 
     <h2>🏆 Top Players</h2>
@@ -143,61 +138,72 @@ btn.addEventListener("click", () => {
 
 </section>
 
+<!-- FAQ -->
 <section class="faq">
 
-    <h2>❓ Frequently Asked Questions</h2>
+    <h2>❓ FAQ</h2>
 
-    <p><b>Q:</b> Is this website free?</p>
-    <p>A: Yes, it is completely free.</p>
+    <p><b>Q:</b> Is this free?</p>
+    <p>A: Yes</p>
 
-    <p><b>Q:</b> Can I play games here?</p>
-    <p>A: No, this website provides gaming information only.</p>
+    <p><b>Q:</b> Can I play games?</p>
+    <p>A: No, only info website</p>
 
 </section>
 
+<!-- CONTACT FORM -->
 <section class="contact-form">
 
     <h2>📞 Contact Us</h2>
 
-    <input type="text" placeholder="Your Name"><br><br>
-
-    <input type="email" placeholder="Your Email"><br><br>
-
-    <textarea placeholder="Your Message"></textarea><br><br>
+    <input type="text" placeholder="Name"><br><br>
+    <input type="email" placeholder="Email"><br><br>
+    <textarea placeholder="Message"></textarea><br><br>
 
     <button>Send</button>
 
 </section>
 
+<!-- GALLERY -->
 <section class="gallery">
-    <h2>🖼️ Game Gallery</h2>
+
+    <h2>🖼 Game Gallery</h2>
+
     <div class="gallery-box">
-        <img src="https://picsum.photos/300/200?random=1" alt="Game 1">
-        <img src="https://picsum.photos/300/200?random=2" alt="Game 2">
-        <img src="https://picsum.photos/300/200?random=3" alt="Game 3">
+        <img src="https://picsum.photos/300/200?random=1">
+        <img src="https://picsum.photos/300/200?random=2">
+        <img src="https://picsum.photos/300/200?random=3">
     </div>
+
 </section>
+
+<!-- NEWS -->
 <section class="news">
-    <h2>📰 Latest Gaming News</h2>
+
+    <h2>📰 Latest News</h2>
 
     <div class="news-box">
+
         <div class="news-card">
-            <h3>🎮 GTA 6</h3>
-            <p>GTA 6 is one of the most awaited games with a huge open world.</p>
+            <h3>GTA 6</h3>
+            <p>Huge open world game coming soon.</p>
         </div>
 
         <div class="news-card">
-            <h3>🔥 BGMI</h3>
-            <p>New BGMI update brings exciting maps, weapons and events.</p>
+            <h3>BGMI</h3>
+            <p>New update with maps and weapons.</p>
         </div>
 
         <div class="news-card">
-            <h3>⚔ Valorant</h3>
-            <p>Valorant introduces a new agent with unique abilities.</p>
+            <h3>Valorant</h3>
+            <p>New agent added.</p>
         </div>
+
     </div>
+
 </section>
 
+<!-- STATS -->
 <section class="stats">
 
     <div class="stat-box">
@@ -212,24 +218,30 @@ btn.addEventListener("click", () => {
 
     <div class="stat-box">
         <h2>4.9⭐</h2>
-        <p>User Rating</p>
+        <p>Rating</p>
     </div>
 
 </section>
+
+<!-- FOOTER -->
 <footer>
+
     <h2>🎮 Gaming Zone</h2>
 
-    <p>Follow Us</p>
+    <p>Facebook | Instagram | YouTube | Discord</p>
 
-    <p>
-        📘 Facebook |
-        📸 Instagram |
-        ▶ YouTube |
-        💬 Discord
-    </p>
+    <p>© 2026 Gaming Zone</p>
 
-    <p>© 2026 Gaming Zone. All Rights Reserved.</p>
 </footer>
+
+<!-- ✅ JAVASCRIPT (IMPORTANT - BOTTOM) -->
+<script>
+const btn = document.getElementById("themeBtn");
+
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+});
+</script>
 
 </body>
 </html>
