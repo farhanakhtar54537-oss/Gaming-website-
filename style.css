@@ -431,7 +431,8 @@ img {
 }
 .trend-card{
     width:250px;
-    background: blue;
+    background: linear-gradient(135deg, #ff0000, #8000ff);
+    color:white;;
     border:2px solid #00e5ff;
     border-radius:15px;
     padding:20px;
