@@ -679,4 +679,30 @@ footer {
 .light-mode footer {
     background: #ddd;
     color: black;
+} 
+
+.card,
+.trend-card,
+.player-card,
+.news-card {
+    background-color: #222 !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+ 
+ @media (max-width: 768px) {
+    .card,
+    .trend-card,
+    .player-card,
+    .news-card {
+        background-color: #222 !important;
+        color: white !important;
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+    }
 }
